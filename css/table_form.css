@@ -1,0 +1,85 @@
+body {
+    text-align: center;
+}
+
+/* FORM*/
+
+.form {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    margin: auto;
+}
+
+.form > form > label {
+    font-weight: bold;
+}
+
+.form > form > label > input[type="number"] {
+    width: 75px;
+    height: 30px;
+    outline: none;
+    padding-left: 10px;
+    border: 2px solid black;
+}
+
+.form > form > input[type="submit"] {
+    width: 125px;
+    height: 35px;
+    background-color: rgb(194, 47, 47);
+    font-weight: bold;
+    border: 2px solid black;
+    cursor: pointer;
+    color: white;
+}
+
+.form > form > input[type="submit"]:hover {
+    background-color: rgb(161, 33, 33);
+}
+
+.form > form > input[type="submit"]:focus {
+    background-color: rgb(121, 17, 17);
+}
+
+/* TABLE */
+
+.table {
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    top: 150px;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 800px;
+    font-weight: bold;
+}
+
+table, tr, th, td {
+    border: 2px solid black;
+}
+
+th:nth-child(2),th:nth-child(3) {
+    border-color: black;
+}
+
+th {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+th:nth-child(2) {
+    width: 500px;
+}
+
+table tr:nth-child(even) td {
+    background-color: lightsalmon;
+}
+
+table tr:nth-child(odd) td {
+    background-color: white;
+}
